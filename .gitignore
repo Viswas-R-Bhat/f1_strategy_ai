@@ -1,0 +1,21 @@
+# Cache & model artifacts
+f1_cache/
+checkpoints/
+rl_pitstop_agent/
+tb_logs/
+__pycache__/
+*.pt
+*.zip
+
+# Python
+*.pyc
+.env
+.venv
+venv/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

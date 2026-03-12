@@ -1,0 +1,31 @@
+# F1 AI Pit Strategy — Python Dependencies
+# Install with: pip install -r requirements.txt
+#
+# Tested on: Python 3.10 (Anaconda tf_gpu env), Windows 11
+# Note: protobuf is pinned to avoid conflict with tensorboard/tensorflow
+
+# Core data
+fastf1>=3.3.0
+pandas>=2.0.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+
+# Deep Learning (CPU version — for GPU see note below)
+torch>=2.2.0
+# GPU NOTE: If you have a CUDA GPU, replace the torch line above and run:
+# pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# Reinforcement Learning
+gymnasium>=0.29.0
+stable-baselines3>=2.3.0
+
+# Visualisation & Dashboard
+streamlit>=1.35.0
+plotly>=5.20.0
+
+# Utilities
+tqdm>=4.66.0
+
+# Protobuf — pinned to avoid tensorboard/tensorflow conflict
+# Do NOT upgrade above 4.0 if you have tensorflow installed
+protobuf>=3.20,<4.0
