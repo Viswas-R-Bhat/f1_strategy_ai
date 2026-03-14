@@ -190,5 +190,7 @@ f1_strategy_ai/
 ## Author
 
 Viswas R Bhat
+
 Dibyansh Raj
+
 Sanskar Vishwas Raut
